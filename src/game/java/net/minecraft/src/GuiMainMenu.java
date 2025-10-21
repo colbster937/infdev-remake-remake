@@ -69,6 +69,7 @@ public class GuiMainMenu extends GuiScreen {
 		this.drawString(this.fontRenderer, var8, this.width - this.fontRenderer.getStringWidth(var8) - 2, 2, 8421504);
 		var8 = "Allocated memory: " + var11 * 100L / var9 + "% (" + var11 / 1024L / 1024L + "MB)";
 		this.drawString(this.fontRenderer, var8, this.width - this.fontRenderer.getStringWidth(var8) - 2, 12, 8421504);
+		this.drawString(this.fontRenderer, "Made by Colbster937", 2, 2, 8421504);
 		super.drawScreen(var1, var2, var3);
 	}
 }
