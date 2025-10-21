@@ -1,4 +1,5 @@
-# Indev 20100630-1835 [![Build and Upload JS + WASM](https://github.com/colbster937/indev-remake/actions/workflows/gradle.yml/badge.svg)](https://github.com/colbster937/indev-remake/actions/workflows/gradle.yml)
+# Indev 20100630-1835
+[![Build and Upload JS + WASM](https://github.com/colbster937/indev-remake/actions/workflows/gradle.yml/badge.svg)](https://github.com/colbster937/indev-remake/actions/workflows/gradle.yml)
 <!-- <img width="858" height="477" alt="image" src="https://github.com/user-attachments/assets/3fbc8635-1ee2-4584-ac3b-420f2dbbf805" /> -->
 
 
@@ -35,4 +36,4 @@ Do not use the desktop runtime as substitute for testing you client in a browser
 
 If you want to debug the desktop runtime from your IDE, one way you can do it is by enabling the debugger in the LWJGL target's `eaglercraftDebugRuntime` task, but something that will launch even faster is just creating a run configuration in your IDE directly in the LWJGL target project.
 
-You can do this by creating a run configuration specifying `net.lax1dude.eaglercraft.v1_8.internal.lwjgl.MainClass` as the main class, the `desktopRuntime` folder as the working directory, `-Xmx1G -Xms1G -Djava.library.path=.` in the JVM arguments, and if you're on Linux you'll also want to add an environment variable to append the `desktopRuntime` folder to `LD_LIBRARY_PATH` and set `__GL_THREADED_OPTIMIZATIONS` to `0` if using Nvidia drivers.
+You can do this by creating a run configuration specifying `net.lax1dude.eaglercraft.internal.lwjgl.MainClass` as the main class, the `desktopRuntime` folder as the working directory, `-Xmx1G -Xms1G -Djava.library.path=.` in the JVM arguments, and if you're on Linux you'll also want to add an environment variable to append the `desktopRuntime` folder to `LD_LIBRARY_PATH` and set `__GL_THREADED_OPTIMIZATIONS` to `0` if using Nvidia drivers.
