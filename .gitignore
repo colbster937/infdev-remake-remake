@@ -1,8 +1,8 @@
-.DS_Store
-gradle/wrapper
-gradlew
-gradlew.bat
-build
-.idea
+**/.DS_Store
+**/gradle/wrapper/
+**/gradlew
+**/gradlew.bat
+**/build/
+**/.idea/
 **/classes.*
 **/bootstrap.*
