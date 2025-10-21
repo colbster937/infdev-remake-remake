@@ -15,7 +15,7 @@ pluginManagement {
 	}
 }
 
-rootProject.name = "Indev 20100630-1835"
+rootProject.name = "Infdev 20100630-1835"
 
 include("target_lwjgl_desktop")
 include("target_teavm_javascript")

@@ -37,7 +37,7 @@ import net.lax1dude.eaglercraft.internal.vfs2.EaglerFileSystemException;
 public class IndexedDBFilesystem implements IEaglerFilesystem {
 
 	public static IEaglerFilesystem createFilesystem(String dbName) {
-		String filesystemDB = "_dev_colbster937_eaglercraft_internal_PlatformFilesystem_indev_" + dbName;
+		String filesystemDB = "_dev_colbster937_eaglercraft_internal_PlatformFilesystem_infdev_" + dbName;
 		JSDatabaseOpen dbOpen = openDB(BetterJSStringConverter.stringToJS(filesystemDB));
 
 		if(dbOpen.getFailedLocked()) {

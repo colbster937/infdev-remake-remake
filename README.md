@@ -1,5 +1,5 @@
-# Indev 20100630-1835
-[![Build and Upload JS + WASM](https://github.com/colbster937/indev-remake/actions/workflows/gradle.yml/badge.svg)](https://github.com/colbster937/indev-remake/actions/workflows/gradle.yml)
+# Infdev 20100630-1835
+[![Build and Upload JS + WASM](https://github.com/colbster937/infdev-remake-remake/actions/workflows/gradle.yml/badge.svg)](https://github.com/colbster937/infdev-remake-remake/actions/workflows/gradle.yml)
 <!-- <img width="858" height="477" alt="image" src="https://github.com/user-attachments/assets/3fbc8635-1ee2-4584-ac3b-420f2dbbf805" /> -->
 
 
