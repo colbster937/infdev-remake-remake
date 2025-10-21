@@ -40,7 +40,10 @@ jobs:
         run: ./gradlew :target_teavm_javascript:makeMainOfflineDownload
 
       - name: Build WASM-GC client
-        run: ./gradlew :target_teavm_wasm_gc:makeMainWasmClientBundle
+        run: |
+          cd ./target_teavm_wasm_gc/
+          ./CompileBootstrapJS.sh
+          ./MakeWASMClientBundle.sh
 
       - name: Upload JavaScript build
         uses: actions/upload-artifact@v4.6.2
