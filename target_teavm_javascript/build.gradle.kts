@@ -88,7 +88,7 @@ eaglercraftBuild {
 		js("main") {
 			sourceGeneratorOutput = file("$jsFolder/$jsFileName")
 			offlineDownloadTemplate = file("javascript/OfflineDownloadTemplate.txt")
-			mainOutput = file("$jsFolder/Classic 0.0.23a_01-JS.html")
+			mainOutput = file("$jsFolder/Indev-JS.html")
 		}.apply {
 			epkSources = file("../desktopRuntime/resources")
 			epkOutput = file("$jsFolder/assets.epk")

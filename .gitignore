@@ -7,3 +7,4 @@
 **/classes.*
 **/bootstrap.*
 !/gradle/local-libs/**
+!**/classes.wasm-deobfuscator.wasm
