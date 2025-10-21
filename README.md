@@ -10,8 +10,7 @@
 
 
 
-## requires java 17 to compile!
-### (versions newer or older than 17 wont work)
+## requires java or newer 17 to compile!
 
 
 **To compile the JavaScript client:**
