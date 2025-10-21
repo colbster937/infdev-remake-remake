@@ -6,3 +6,4 @@
 **/.idea/
 **/classes.*
 **/bootstrap.*
+!/gradle/local-libs/**
